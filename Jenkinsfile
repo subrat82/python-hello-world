@@ -1,7 +1,6 @@
 pipeline {
   agent none
   stages {
-     agent any
      stage ('checkout') {
 	steps {
            git url: 'https://github.com/subrat82/python-hello-world.git/'
